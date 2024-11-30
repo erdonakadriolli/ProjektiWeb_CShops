@@ -224,16 +224,54 @@ input:focus {
   margin-top: 5px;
 }
 
-  
 footer {
-  background-color: #f8f9fa;
+  background-color: rgb(222, 222, 222);
   padding: 20px;
-  text-align: left;
   color: #333;
 }
 
-.footer-section {
+.newsletter-section {
+  background-color: #ff0000;
+  color: #00ff00;
+  padding: 10px;
+  text-align: center;
   margin-bottom: 20px;
+}
+
+.newsletter-section p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.newsletter-subscription input {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 50px;
+  /* cursor: pointer; */
+  cursor: all-scroll;
+}
+
+.newsletter-subscription button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #00ff00;
+  color: #ff0000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-sections {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 150px;
+  margin: 10px;
 }
 
 .footer-section h3 {
@@ -259,9 +297,13 @@ footer {
   text-decoration: underline;
 }
 
+.footer-info {
+  text-align: center;
+}
+
 .social-media a {
   display: inline-block;
-  margin-right: 10px;
+  margin: 0 5px;
 }
 
 .social-media img {
@@ -272,5 +314,5 @@ footer {
 .payment-methods img {
   width: 40px;
   height: 24px;
-  margin-right: 10px;
+  margin: 5px;
 }
