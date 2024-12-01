@@ -27,69 +27,63 @@ body {
     color: #fff;
     padding: 15px 20px;
   }
-  
-  .container-2 {
+ 
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f4f4f4;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  .container-2 h1{
-    font-size: 36px;
-    color: #3f3f3f;
-    margin-left: 20px;
-  }
+/*Ylli*/
 
-  .container-2 a{
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 18px;
-    transition: color 0.2s ease;
-    color: rgb(46, 46, 46);
-    margin-left: 105px;
-  }
-  .container-2 a:hover{
-    text-decoration: underline;
-    color: green;
-  }
-  .container-2 select{
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #cecfceb0;
-    margin-left: 37px;
-  }
-  .container-2 #search-1{
-    width: 550px;
-    padding: 10px;
-    border-radius: 45px;
-    border: 1px solid  #fdc8c8;
-    margin-left: 50px;
-  }
-  .container-2 #search-1::placeholder{
-  color: rgb(202, 202, 202);
 
-  }
-  .container-2 #search-1:hover{
-    border-color: green;
-  }
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #fffefe;
+  padding: 20px 30px;
+}
 
-  .container-2 img {
-    margin-top: 9px;
-    margin-left: -130px;
-    margin-bottom: 10px;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    padding: 30px;
-  }
-  .container-2 #img-1{
-    margin-left: 300px;
-  }
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
 
-/* Ylli */
+.navigation-menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-menu ul li {
+  margin: 0 10px;
+}
+
+.navigation-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.navigation-menu ul li a:hover {
+  color: #007bff;
+}
+
+.search-bar input {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.header-icons a {
+  margin-left: 15px;
+}
+
+.header-icons img {
+  width: 24px;
+  height: 24px;
+}
+
 
 
 
@@ -224,11 +218,7 @@ input:focus {
   margin-top: 5px;
 }
 
-footer {
-  background-color: rgb(222, 222, 222);
-  padding: 20px;
-  color: #333;
-}
+
 
 .newsletter-section {
   background-color: #ff0000;
@@ -244,21 +234,46 @@ footer {
 }
 
 .newsletter-subscription input {
-  padding: 10px 20px;
-  border: none;
-  background-color: #ffffff;
-  border-radius: 50px;
-  /* cursor: pointer; */
-  cursor: all-scroll;
+  padding: 5px 10px; 
+  width: 200px;  
+  font-size: 14px; 
+  border: none; 
+  border-radius: 5px;
 }
+
+.newsletter-subscription button { 
+  padding: 5px 15px; 
+  font-size: 14px;  
+  border: none; background-color: #00ff00; color: #ff0000; 
+  border-radius: 5px; 
+  cursor: pointer; }
+
 
 .newsletter-subscription button {
   padding: 10px 20px;
+  background-color: #15ff00; 
+  color: #494949;
   border: none;
-  background-color: #00ff00;
-  color: #ff0000;
   border-radius: 5px;
   cursor: pointer;
+}
+
+
+.newsletter-subscription button:hover {
+  background-color: #0af936; 
+
+}
+
+
+.newsletter-subscription button:active {
+  background-color: #13f729; 
+}
+
+
+footer {
+  background-color: rgb(222, 222, 222);
+  padding: 20px;
+  color: #333;
 }
 
 .footer-sections {
