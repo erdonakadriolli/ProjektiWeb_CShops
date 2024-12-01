@@ -276,58 +276,102 @@ footer {
   color: #333;
 }
 
-.footer-sections {
+.container-7 {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+.container-7-1 {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.container-7-1 h1 {
+  font-size: 24px;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
-.footer-section {
-  flex: 1;
-  min-width: 150px;
-  margin: 10px;
+.container-7-1 p {
+  font-size: 14px;
+  line-height: 2.2;
+  color: #555;
 }
 
-.footer-section h3 {
+.container-7-2 {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.container-7-2 h3 {
   font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.container-7-2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container-7-2 ul li {
   margin-bottom: 10px;
 }
 
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section ul li {
-  margin-bottom: 5px;
-}
-
-.footer-section ul li a {
-  color: #007bff;
+.container-7-2 ul li a {
   text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  transition: color 0.3s;
 }
 
-.footer-section ul li a:hover {
-  text-decoration: underline;
+.container-7-2 ul li a:hover {
+  color: #007BFF;
 }
 
-.footer-info {
-  text-align: center;
+
+.container-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 0px;
+}
+.container-line img{
+  width: 30px;
+  height: auto;
+  margin-top: 20px;
+  margin-right: 10px;
 }
 
-.social-media a {
-  display: inline-block;
-  margin: 0 5px;
+.container-8{
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+}
+.container-8 h1{
+  color: #555;
+  font-size: 10px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.payment-1 img{
+  margin-top: 20px;
+  width: 30px;
+  height: auto;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
-.social-media img {
-  width: 24px;
-  height: 24px;
+.filler{
+  background-color: #f9f9f9;
 }
-
-.payment-methods img {
-  width: 40px;
-  height: 24px;
-  margin: 5px;
+.filler p{
+  font-size: 30px;
+  color: #f9f9f9 ;
 }
