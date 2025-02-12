@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container-1{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: red;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container-1 a, h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.container-1 a{    
+    color: white;
+}
+.container-1 a:hover {
+    text-decoration-color: white;
+}
+/*Container 2 */
+/*=-=-=-=-=-=-=-=--=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=*/
+/* Container 2 */
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    gap: 15px;
+}
+
+.container-2 h1 {
+    font-size: 40px;
+    color: #3f3f3f;
+    margin: 0;
+}
+.container-2 a h1:hover{
+    color: green;
+    transition: 1s;
+}
+
+.container-2 a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 21px;
+    transition: color 0.2s ease;
+    color: rgb(46, 46, 46);
+    margin: 0 10px;
+}
+
+.container-2 a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.container-2 select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #cecfceb0;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+
+.search-container {
+    position: relative;
+    display: inline-block;
+    width: 400px; 
+}
+
+
+#search-1 {
+    width: 400px;
+    padding: 8px 40px 8px 15px;
+    border-radius: 25px;
+    border: 1px solid #fdc8c8;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#search-1::placeholder {
+    color: rgb(202, 202, 202);
+}
+
+#search-1:hover {
+    border-color: green;
+}
+
+
+#Search.png {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%); 
+    width: 20px; 
+    height: 20px;
+    cursor: pointer;
+}
+
+#Search.png:hover {
+    filter: brightness(0.8); 
+}
+
+
+.container-2 img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.container-2 #img-1 {
+    margin-left: 20px;
+}
+/*==============FOOTER=============*/
