@@ -27,7 +27,7 @@ include '../components/header.php';
         
           $price_display = "<span style='color:red;'>Sale: \$" . number_format($row["SalePrice"], 2) . "</span> <del>\$" . number_format($row["ProductPrice"], 2) . "</del>";
 
-          echo "<div class='product-card' style='margin-bottom: 200px'>
+          echo "<div class='product-card' style=' height:500px;margin-bottom: 10px'>
                   <div class='foto'>
                     <img src='" . htmlspecialchars($row["ProductImage"]) . "' alt='" . htmlspecialchars($row["ProductName"]) . "'>
                   </div>

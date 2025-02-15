@@ -27,6 +27,7 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($product["ProductName"]); ?> - Details</title>
     <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/mainpage.css">
     <link rel="stylesheet" href="../styles/productpage.css">
     <link rel="stylesheet" href="../styles/productdetail.css">
 </head>
@@ -51,7 +52,7 @@ try {
         </div>
     </main>
 
-    <?php include '../components/footer.php'; ?>
+    <?php include '../components/foooter.php'; ?>
 
 </body>
 </html>

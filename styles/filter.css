@@ -1,0 +1,17 @@
+/*<h2>Filter by Brand</h2>
+    <form action="brand.php" method="GET">
+      <label for="brand">Select Brand:</label>
+      <select name="brand" id="brand">
+        <option value="">All Brands</option>
+*/
+h2{
+    font-size: 30px;
+}
+button{
+   width: 100px;
+   border-radius: 8px;
+   background-color: #007bff;
+   border: none;
+   color: white;
+   font-size: 18px;
+}

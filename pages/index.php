@@ -25,7 +25,7 @@
                     Get ready to celebrate the season with our exclusive collection of holiday décor. From sparkling lights to elegant ornaments, we offer everything to make your home shine this Christmas and New Year.
                 </p>
 
-                <a href="AboutUs.html"><input id="Submit-1" type="submit" value="About Us"></a> 
+                <a href="AboutUs.php"><input id="Submit-1" type="submit" value="About Us"></a> 
             <div class="TeDhena-container">
                 <div class="TeDhena-1">
                     <h2>
@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="container-3-2">
-                <img src="images/decor.png">
+                <img src="../styles/images/decor.png">
             </div>
         </div>
 
@@ -68,70 +68,12 @@
 
         <div class="container-5">
             
-
-            <div class="Gallery">
-                <img src="images/left.png" id="pas" class="pas">
-        
-                <div class="gallery">
-                    <div>
-                        <span>
-                           <a href="Wreath.html"><img src="images/wreath.png" alt="WREATH"></a> 
-                            <h1 class="title">Christmas wreaths</h1>
-                            <p class="stars">⭐⭐⭐⭐⭐</p>
-                            <p class="rating">5/5</p>
-                            <p class="price">$179.99</p>
-                        </span>
-        
-                        <span>
-                            <a href="Lights.html"><img src="images/Lights.png" alt="Lights"></a> 
-                            <h1 class="title">Lights outdoor</h1>
-                            <p class="stars">⭐⭐⭐☆☆</p>
-                            <p class="rating">3/5</p>
-                            <p class="price">$240.99</p>
-                        </span>
-        
-                        <span>
-                            <a href="Tree.html"><img src="images/Tree.png" alt="WREATH"></a> 
-                            <h1 class="title">Christmas Tree</h1>
-                            <p class="stars">⭐⭐⭐☆☆</p>
-                            <p class="rating">3/5</p>
-                            <p class="price">$119.99</p>
-                        </span>
-                    </div>
-        
-                    <div>
-                        <span>
-                            <a href="Figures.html"><img src="images/Figure.png" alt="Lights"></a> 
-                            <h1 class="title">Lights with figures</h1>
-                            <p class="stars">⭐⭐⭐⭐⭐</p>
-                            <p class="rating">5/5</p>
-                            <p class="price">$112.99</p>
-                        </span>
-        
-                        <span>
-                            <a href="Balls.html"><img src="images/Balls.png" alt="Decorations"></a> 
-                            <h1 class="title">Decoration</h1>
-                            <p class="stars">⭐⭐⭐⭐☆</p>
-                            <p class="rating">4/5</p>
-                            <p class="price">$79.99</p>
-                        </span>
-        
-                        <span>
-                            <a href="Gifts.html"><img src="images/santa.png" alt="Gifts"></a> 
-                            <h1 class="title">Gifts</h1>
-                            <p class="stars">⭐⭐☆☆☆</p>
-                            <p class="rating">2/5</p>
-                            <p class="price">$29.99</p>
-                        </span>
-                    </div>
-                </div>
-        
-                <img src="images/right.png" id="para" class="para">
-            </div>
+        <?php include '../components/gallery.php'; ?>
+      
             
         </div>
         <div class="search-2">
-            <input  type="submit" value="View All" class="view-all">
+        <a href="productlist.php"> <input  type="submit" value="view All" class="view-all"> </a>
         </div>
         <p style="text-align: center; color: rgb(86, 86, 86);">________________________________________________________________________________________________________________________________________________________________________________</p>
 
@@ -139,92 +81,32 @@
 
         <div class="container-5">
             
-            <div class="Gallery1">
-                <img src="images/left.png" id="pas1" class="pas1">
-        
-                <div class="gallery-1">
-                    <div>
-                        <span>
-                            <a href="Wreath.html"><img src="images/wreath.png" alt="WREATH"></a> 
-                            <h1 class="title">Christmas wreaths</h1>
-                            <p class="stars">⭐⭐⭐⭐⭐</p>
-                            <p class="rating">5/5</p>
-                            <p class="price">$179.99</p>
-                        </span>
-        
-                        <span>
-                            <a href="Lights.html"><img src="images/Lights.png" alt="Lights"></a>
-                            <h1 class="title">Lights outdoor</h1>
-                            <p class="stars">⭐⭐⭐☆☆</p>
-                            <p class="rating">3/5</p>
-                            <p class="price">$240.99</p>
-                        </span>
-        
-                        <span>
-                            <a href="Tree.html"><img src="images/Tree.png" alt="WREATH"></a>
-                            <h1 class="title">Christmas Tree</h1>
-                            <p class="stars">⭐⭐⭐☆☆</p>
-                            <p class="rating">3/5</p>
-                            <p class="price">$119.99</p>
-                        </span>
-                    </div>
-        
-                    <div>
-                        <span>
-                            <a href="Figures.html"><img src="images/Figure.png" alt="Lights"></a>
-                            <h1 class="title">Lights with figures</h1>
-                            <p class="stars">⭐⭐⭐⭐⭐</p>
-                            <p class="rating">5/5</p>
-                            <p class="price">$112.99</p>
-                        </span>
-        
-                        <span>
-                            <a href="Balls.html"><img src="images/Balls.png" alt="Decorations"></a>
-                            <h1 class="title">Decoration</h1>
-                            <p class="stars">⭐⭐⭐⭐☆</p>
-                            <p class="rating">4/5</p>
-                            <p class="price">$79.99</p>
-                        </span>
-        
-                        <span>
-                            <a href="Gifts.html"><img src="images/santa.png" alt="Gifts"></a>
-                            <h1 class="title">Gifts</h1>
-                            <p class="stars">⭐⭐☆☆☆</p>
-                            <p class="rating">2/5</p>
-                            <p class="price">$29.99</p>
-                        </span>
-                    </div>
-                </div>
-        
-                <img src="images/right.png" id="para1" class="para1">
-            </div>
+        <?php include '../components/gallery.php'; ?>
         <div class="search-2">
-            <input  type="submit" value="view All" class="view-all">
+            <a href="productlist.php"> <input  type="submit" value="view All" class="view-all"> </a>
         </div>
 
         <div class="container-6">
             <div class="top-1">
-                <a href="#"><img src="images/decor1.jpg"></a>
-                <a href="#"><img src="images/decor2.jpg"></a>
-                <a href="#"><img src="images/decor3.jpg"></a>
-                <a href="#"><img src="images/decor4.jpg"></a>
+                <a href="#"><img src="../styles/images/decor1.jpg"></a>
+                <a href="#"><img src="../styles/images/decor2.jpg"></a>
+                <a href="#"><img src="../styles/images/decor3.jpg"></a>
+                <a href="#"><img src="../styles/images/decor4.jpg"></a>
             </div>
             <br>
             <div class="bottom-1">
-                <a href="#"><img src="images/decor5.jpg"></a>
-                <a href="#"><img src="images/decor6.jpg"></a>
-                <a href="#"><img src="images/decor7.jpg"></a>
-                <a href="#"><img src="images/decor8.jpg"></a>
-                <a href="#"><img src="images/decor9.jpg"></a>
+                <a href="#"><img src="../styles/images/decor5.jpg"></a>
+                <a href="#"><img src="../styles/images/decor6.jpg"></a>
+                <a href="#"><img src="../styles/images/decor7.jpg"></a>
+                <a href="#"><img src="../styles/images/decor8.jpg"></a>
+                <a href="#"><img src="../styles/images/decor9.jpg"></a>
             </div>
-            <div class="submit-2">
-                <input type="submit" value="See More" >
-            </div>
+          
         </div>
 
         <?php include '../components/foooter.php'; ?>
-        
-    </body>
-    <script src="GallerySlider.js"></script>
-    <script src="../components/components.js"></script>
+                
+</body>
+    <script src="../scripts/GallerySlider.js"></script>
+  
 </html>

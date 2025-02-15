@@ -10,7 +10,7 @@ function initializeSlider(){
 
     if(slides.length > 0){
     slides[slideIndex].classList.add("displaySlide");
-    intervalId = setInterval(slidedPara,3000);
+    intervalId = setInterval(slidedPara,1000);
     }
 }   
 function showSlide(index){

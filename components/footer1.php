@@ -55,11 +55,11 @@
     <div class="container-8">
       <h1>Ey.Shop © 2024, All rights Reserved</h1>
       <div class="payment-1">
-          <a href="#"><img src="../styles/images/visa.png"></a>
-          <a href="#"><img src="../styles/images/MasterCard.png"></a>
-          <a href="#"><img src="../styles/images/pa.png"></a>
-          <a href="#"><img src="../styles/images/apple-pay.png"></a>
-          <a href="#"><img src="../styles/images/google-pay.png"></a>
+          <a href="https://usa.visa.com/"><img src="../styles/images/visa.png"></a>
+          <a href="https://www.mastercard.us/en-us.html"><img src="../styles/images/MasterCard.png"></a>
+          <a href="https://www.paypal.com/rs/home"><img src="../styles/images/pp.png"></a>
+          <a href="https://www.apple.com/apple-pay/"><img src="../styles/images/apple-pay.png"></a>
+          <a href="https://payments.google.com/gp/w/u/0/home/signups"><img src="../styles/images/google-pay.png"></a>
       </div>
     </div>
     <div class="filler">

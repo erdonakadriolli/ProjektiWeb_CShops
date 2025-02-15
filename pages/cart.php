@@ -25,6 +25,7 @@ $cart_items = $stmt->fetchAll(PDO::FETCH_ASSOC);
   <title>Your Cart</title>
   <link rel="stylesheet" href="../styles/global.css">
   <link rel="stylesheet" href="../styles/mainpage.css">
+  <link rel="stylesheet" href="../styles/cart.css">
  
 </head>
 <body>
@@ -64,6 +65,16 @@ $cart_items = $stmt->fetchAll(PDO::FETCH_ASSOC);
   <?php else: ?>
     <p>Your cart is empty.</p>
   <?php endif; ?>
+        <?php if (count($cart_items) > 0): ?>
+          <form action="buy-all.php" method="POST">
+              <button style="width:400px; height:40px; font-size:25px; cursor: pointer; margin-top:5px;border-radius:15px;background-color:rgb(114, 236, 100); color:white;border:none;" type="submit" name="buy_all" class="buy-button">Buy All</button>
+          </form>
+      <?php endif; ?>
+      <?php if (isset($_GET['success']) && $_GET['success'] == 1): ?>
+    <p class="success-message" style="font-size:30px; color:green;">Purchase completed successfully!</p>
+<?php endif; ?>
+
+
   
   <?php include '../components/foooter.php'; ?>
 </body>

@@ -147,27 +147,27 @@ if (!isset($_SESSION["user_id"]) || $_SESSION["role"] != "admin") {
     <form action="create_product.php" method="POST" class="product-form">
         <div class="form-group">
             <label>Product Name:</label>
-            <input type="text" name="product_name" required>
+            <input type="text" name="product_name" placeholder="Emri i produktit" required>
         </div>
         <div class="form-group">
             <label>Product Type:</label>
-            <input type="text" name="product_type" required>
+            <input type="text" name="product_type" placeholder="lloji produktit" required>
         </div>
         <div class="form-group">
             <label>Product Description:</label>
-            <textarea name="product_description" required></textarea>
+            <textarea name="product_description" placeholder="Pershkrimi produktit" required></textarea>
         </div>
         <div class="form-group">
             <label>Product Amount:</label>
-            <input type="number" name="product_amount" required>
+            <input type="number" placeholder="Sasia produktit" name="product_amount" required>
         </div>
         <div class="form-group">
             <label>Product Price:</label>
-            <input type="number" step="0.01" name="product_price" required>
+            <input type="number" step="0.01" placeholder="Qmimi produktit" name="product_price" required>
         </div>
         <div class="form-group">
             <label>Product Image (Link):</label>
-            <input type="url" name="product_image" required>
+            <input type="url" name="product_image" placeholder="Foto" required>
         </div>
         <button type="submit">Create Product</button>
     </form>
@@ -195,7 +195,7 @@ if (!isset($_SESSION["user_id"]) || $_SESSION["role"] != "admin") {
                                 <td>{$row["ProductName"]}</td>
                                 <td>{$row["ProductType"]}</td>
                                 <td>{$row["ProductDescription"]}</td>
-                                <td>{$row["ProductAmount"]}</td>
+                                <td>{$row["ProductAmount"]}</td>s
                                 <td>\${$row["ProductPrice"]}</td>
                                 <td>
                                     <a href='edit_product.php?id={$row["ProductID"]}'>Edit</a> |

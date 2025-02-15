@@ -1,0 +1,20 @@
+.body{
+    height: 2000px;
+}
+
+
+h2{
+    font-size: 60px;
+}
+#brand{
+    background-color: black;
+}
+.product-card{
+    height: 4900px;
+}
+.main{
+    height: 10000px;
+}
+.product-list{
+    height: 1000px;
+}

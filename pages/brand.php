@@ -28,6 +28,7 @@ if ($selected_brand) {
   <link rel="stylesheet" href="../styles/global.css">
   <link rel="stylesheet" href="../styles/productpage.css">
   <link rel="stylesheet" href="../styles/mainpage.css">
+  <link rel="stylesheet" href="../styles/filter.css">
 </head>
 <body>
   <main>
@@ -45,7 +46,7 @@ if ($selected_brand) {
       <button type="submit">Filter</button>
     </form>
 
-    <div class="product-list" style="margin-top:2%; margin-left:2%;">
+    <div class="product-list" style="margin-top:2%; margin-bottom:10px; margin-left:2%;">
       <?php
       if (count($products) > 0) {
         foreach ($products as $row) {

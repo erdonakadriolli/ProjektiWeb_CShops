@@ -38,13 +38,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="../styles/login.css"> 
+    <link rel="stylesheet" href="../styles/mainpage.css">
 </head>
 <body>
+    <div class="hed1"><p>EY.SHOP</p></div>
 <div class="dyat">
     <div class="image">
-        <img src="../styles/images/jack.png">
+        <img src="../styles/images/login.jpg">
+       
     </div>
-
+  
     <div class="nje">
         <h1> Welcome to EY.SHOP</h1>
      <h2>Login</h2>
@@ -60,5 +63,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
      <p>Don't have an account? <a href="register.php">Register here</a></p>
     </div>
 </div>
+<?php include '../components/foooter.php'; ?>
 </body>
 </html>
